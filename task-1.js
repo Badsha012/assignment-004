@@ -5,12 +5,14 @@ function totalFine( fare ) {
           if(typeof fare !== 'number' || fare <=0){
             return 'Invalid';
           }
-          else{
-            return fare=fare+ (fare*0.20)+30;
-          }
+          let find=fare + (fare * .20) +30;
+          return find;
+     
 }
 let x= totalFine(552);
 console.log(x);
+
+
 
 
 
