@@ -9,8 +9,6 @@ function totalFine( fare ) {
           return find;
      
 }
-let x= totalFine(552);
-console.log(x);
 
 
 

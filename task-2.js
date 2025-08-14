@@ -12,7 +12,5 @@ function  onlyCharacter( str ) {
           }
 
 }
-let x=onlyCharacter(" ha ck m e 1 @ru.c  n  ");
-console.log(x);
-console.log(onlyCharacter("  h e llo wor   ld")); 
+
 
